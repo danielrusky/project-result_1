@@ -1,0 +1,25 @@
+version: '3.7'
+services:
+  flask_app:
+    # Собираем контейнер с приложением с помощью uwsgi.Dockerfile
+    # Присваеваем имя контейнера "fin_flask_app"
+
+    build:
+      context: ./app
+      dockerfile: uwsgi.Dockerfile
+
+    container_name: fin_flask_app
+
+
+  nginx_server:
+    # Собираем контейнер с приложением с помощью /nginx/Dockerfile
+    # Открываем 8000 порт для внешнего мира
+    # Присваеваем имя контейнера "fin_nginx_server"
+
+    build:
+      context: ./nginx
+    ports:
+      - 8000:8000
+    container_name: fin_nginx_server
+
+# docker-compose up --build
