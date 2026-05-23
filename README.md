@@ -52,10 +52,10 @@
 18. target - цена объекта недвижимости, прогнозируемая стоимость (целевой признак)
 
 ## Этапы проекта
-Код в ноутбуках выполнялся в Google-colab с использованием соответствующих [библиотек](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/google-requirements.txt). Создание серверной части осуществлялось на локальной IDE с импортом необходимых библиотек из [google-requirements.txt](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/google-requirements.txt)
+Код в ноутбуках выполнялся в Google-colab с использованием соответствующих [библиотек](https://github.com/danielrusky/project-result_1/blob/main/google-requirements.txt). Создание серверной части осуществлялось на локальной IDE с импортом необходимых библиотек из [google-requirements.txt](https://github.com/danielrusky/project-result_1/blob/main/google-requirements.txt)
 Проект состоит из следующих частей:
 
-* I. [Обзор проекта](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud-origy/blob/main/Processing_and_baseline.ipynb)
+* I. [Обзор проекта](https://github.com/danielrusky/project-result_1/blob/main/Processing_and_baseline.ipynb)
 * II. Исследовательский анализ данных - Часть 1
   * Обзор данных
 * III. Предварительная обработка данных
@@ -92,18 +92,18 @@
 * VI. Моделирование
   * Показатели оценки
   * Baseline
-  * [Linear Regression](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/lr.ipynb)
-  * [Light Gradient Boosted Machine Regressor](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/Optuna%20-%20LGBMRegressor.ipynb)
-  * [Gradient Boosting](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/Optuna%20-%20Gradient%20Boosting.ipynb)
-  * [Extreme Gradient Boosting](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/Optuna%20-%20Extreme%20Gradient%20Boosting.ipynb)
-  * [Random Forest](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/Optuna%20-%20Random%20Forest.ipynb)
-  * [Stacking Regressor](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/Stacking%20Regressor.ipynb)
-* VII. [Результаты](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/Results%20of%20model%20training.ipynb)
+  * [Linear Regression](https://github.com/danielrusky/project-result_1/blob/main/lr.ipynb)
+  * [Light Gradient Boosted Machine Regressor](https://github.com/danielrusky/project-result_1/blob/main/Optuna%20-%20LGBMRegressor.ipynb)
+  * [Gradient Boosting](https://github.com/danielrusky/project-result_1/blob/main/Optuna%20-%20Gradient%20Boosting.ipynb)
+  * [Extreme Gradient Boosting](https://github.com/danielrusky/project-result_1/blob/main/Optuna%20-%20Extreme%20Gradient%20Boosting.ipynb)
+  * [Random Forest](https://github.com/danielrusky/project-result_1/blob/main/Optuna%20-%20Random%20Forest.ipynb)
+  * [Stacking Regressor](https://github.com/danielrusky/project-result_1/blob/main/Stacking%20Regressor.ipynb)
+* VII. [Результаты](https://github.com/danielrusky/project-result_1/blob/main/Results%20of%20model%20training.ipynb)
   * Вывод по выбору наилучшей модели.
-* VIII. Создание [сервера](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/app/src/server.py) на основе Flask приложения для наилучшей обученной модели.
-* IX. [Изоляция Flask приложения в docker контейнере](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/app/flask.Dockerfile).
-* X. [Flask приложение + uwsgi сервер в docker контейнере](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/app/uwsgi.Dockerfile).
-* XI. Docker-compose. [Flask + uwsgi приложение и nginx в двух разных контейнерах](https://github.com/AleksandrOsip/Final-project-of-the-first-year-of-stud/blob/main/docker-compose.yml)
+* VIII. Создание [сервера](https://github.com/danielrusky/project-result_1/blob/main/app/src/server.py) на основе Flask приложения для наилучшей обученной модели.
+* IX. [Изоляция Flask приложения в docker контейнере](https://github.com/danielrusky/project-result_1/blob/main/app/flask.Dockerfile).
+* X. [Flask приложение + uwsgi сервер в docker контейнере](https://github.com/danielrusky/project-result_1/blob/main/app/uwsgi.Dockerfile).
+* XI. Docker-compose. [Flask + uwsgi приложение и nginx в двух разных контейнерах](https://github.com/danielrusky/project-result_1/blob/main/docker-compose.yml)
 
 ## Результаты
 
